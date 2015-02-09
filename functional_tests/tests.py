@@ -63,7 +63,7 @@ class NewVisitorTest(LiveServerTestCase):
         # Now a new user, Francis, comes along to the site.
         #
         # We use a new browser session to make sure that no info
-        ## of Edith's is coming thru from cookies etc#
+        # of Edith's is coming thru from cookies etc
         self.browser.quit()
         self.browser = webdriver.Firefox()
 

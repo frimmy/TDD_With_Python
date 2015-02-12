@@ -1,0 +1,22 @@
+{
+  "name": "super-lists",
+  "version": "0.0.1",
+  "homepage": "https://github.com/frimmy/TDD_With_Python",
+  "authors": [
+    "afrimpong <adrian.frimpong@gmail.com>"
+  ],
+  "description": "TDD and Django/Python",
+  "main": "lists/static/",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2"
+  }
+}

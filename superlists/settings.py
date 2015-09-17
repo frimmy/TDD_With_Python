@@ -20,11 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'hm&aqago7gsrp%%7pqd&ex%pxcqvd*v+v8vtgilx_var_cg0dd'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['superlists-staging.adrianfrimpong.com']
+ALLOWED_HOSTS = ['superlists-staging.adrianfrimpong.com',
+                 'localhost']
 
 
 # Application definition

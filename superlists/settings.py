@@ -24,8 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['superlists-staging.adrianfrimpong.com',
-                 'localhost']
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
